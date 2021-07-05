@@ -1,0 +1,15 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class SceneManager : MonoBehaviour {
+
+	public void changeScene()
+    {
+        Application.LoadLevel("MainScene");
+    }
+    public void ExitGame()
+    {
+        Application.LoadLevel("Home");
+    }
+}
